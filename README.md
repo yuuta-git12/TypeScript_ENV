@@ -37,3 +37,13 @@ node jsファイルの保存先のパス（例：node dist/index.js)
 ```
 npx tsc --watch
 ```
+
+- コンテナを再作成する際のコマンド
+```
+docker compose build --no-cache
+```
+
+- node自体のバージョンアップコマンド
+```
+npm install -g npm
+```
